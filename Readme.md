@@ -1,4 +1,6 @@
 <div align="center">
+
+https://heroku.com/deploy?template=https://github.com/SHANCER1/Raganork
   
 <a href="https://baileys-qr.herokuapp.com"><img align="center" src="/language/replit-scan.png" alt="Scan QR" height="112" width="300" /></a>
 <br>
