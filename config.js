@@ -42,7 +42,7 @@ module.exports = {
     SONGU: process.env.SONGU === undefined ? '𝙎𝙤𝙣𝙜 𝙛𝙤𝙪𝙣𝙙! 𝙐𝙥𝙡𝙤𝙖𝙙𝙞𝙣𝙜... ⏫' : process.env.SONGU,
     BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
-    AUTOSTICKER: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
+    AUTOSTICKER: process.env.AUTO_STICKER === undefined ? false : convertToBool(process.env.AUTO_STICKER),
     warn_count: process.env.WARN === undefined ? '5' : process.env.WARN,
     def_st_name: process.env.DF_STICKER_NAME === undefined ? 'false' : process.env.DF_STICKER_NAME,
     CODE: process.env.C_CODE === undefined ? '91' : process.env.C_CODE,
